@@ -1,0 +1,2 @@
+rootProject.name='Crow_Theater'
+include ':app'

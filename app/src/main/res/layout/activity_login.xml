@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/colorMainBackground"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_crow"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="90sp"
+        android:tint="@color/colorPrincipal"/>
+
+    <TextView
+        android:id="@+id/Logo_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crow_theater"
+        android:textColor="@color/colorPrincipal"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="30sp"/>
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320sp"
+        android:hint="Login"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:hint="Password"
+        android:gravity="center_horizontal"
+        android:password="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="480sp">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:padding="25sp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:padding="25sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

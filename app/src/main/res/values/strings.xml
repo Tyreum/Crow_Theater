@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Crow_Theater</string>
+    <string name="todo">TODO</string>
+    <string name="sou_um_cardview">Sou um CardView</string>
+    <string name="welcome_to_the_crow_theater">Welcome to the Crow Theater!</string>
+    <string name="crow_theater">Crow Theater</string>
+</resources>
