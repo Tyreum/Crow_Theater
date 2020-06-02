@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".movie">
+    tools:context=".Movie"
+    android:padding="10sp">
 
     <ImageView
         android:layout_width="180sp"
         android:layout_height="180sp"
         android:src="@drawable/cookie"
         android:layout_marginTop="70sp"
-        android:layout_marginLeft="130sp"/>
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +20,7 @@
         android:layout_marginTop="250sp"
         android:text="OREO"
         android:textSize="30sp"
-        android:layout_marginLeft="180sp"/>
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -39,25 +40,22 @@
             android:layout_width="100sp"
             android:layout_height="100sp"
             android:src="@drawable/cookie"
-            android:layout_marginRight="3sp"/>
+            android:layout_marginLeft="-5sp"/>
 
         <ImageView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/cookie"
-            android:layout_marginRight="3sp"/>
+            android:src="@drawable/cookie"/>
 
         <ImageView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/cookie"
-            android:layout_marginRight="2sp"/>
+            android:src="@drawable/cookie"/>
 
         <ImageView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/cookie"
-            android:layout_marginRight="3sp"/>
+            android:src="@drawable/cookie"/>
 
     </LinearLayout>
 
