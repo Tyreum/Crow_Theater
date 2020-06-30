@@ -4,4 +4,5 @@
     <string name="sou_um_cardview">Sou um CardView</string>
     <string name="welcome_to_the_crow_theater">Welcome to the Crow Theater!</string>
     <string name="crow_theater">Crow Theater</string>
+    <string name="httphost">http://192.168.15.10/CrowTheater/CrowTheater_server.php</string>
 </resources>

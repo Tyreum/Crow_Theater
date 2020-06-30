@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
-    android:padding="10sp">
+    android:padding="10sp"
+    android:background="@color/colorMainBackground">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -26,31 +27,35 @@
         android:textStyle="bold"
         android:textSize="35sp"
         android:layout_marginTop="30sp"/>
-
-    <EditText
-        android:id="@+id/txtLoginReg"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="320sp"
-        android:hint="Login"
-        android:gravity="center_horizontal"/>
-
+        android:layout_marginTop="300sp"
+        android:orientation="vertical">
     <EditText
-        android:id="@+id/txtPasswordReg"
+        android:id="@+id/txtNameReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400sp"
-        android:hint="Password"
+        android:hint="Name"
         android:gravity="center_horizontal"
-        android:password="true"/>
+        android:layout_marginBottom="5sp"/>
 
     <EditText
-        android:id="@+id/txtEmailReg"
+        android:id="@+id/txtDescriptionReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480sp"
-        android:hint="Email"
-        android:gravity="center_horizontal"/>
+        android:hint="Description"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5sp"
+        android:maxLines="6"/>
+
+    <EditText
+        android:id="@+id/txtGradeReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grade 0/10"
+        android:gravity="center_horizontal" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -59,10 +64,10 @@
         android:layout_marginTop="540sp">
 
         <Button
-            android:id="@+id/btnNewReg"
+            android:id="@+id/btnNewCreation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="Create"
             android:layout_weight="1"
             android:layout_margin="20sp"
             android:padding="20sp"/>

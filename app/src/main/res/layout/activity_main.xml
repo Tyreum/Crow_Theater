@@ -10,6 +10,18 @@
     android:padding="10sp">
 
         <ImageButton
+            android:id="@+id/btnMainReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/baseline_add_24"
+            android:backgroundTint="@color/colorPrincipal"
+            android:padding="15sp"/>
+
+
+        <ImageButton
             android:id="@+id/logo"
             android:layout_width="45sp"
             android:layout_height="45sp"
